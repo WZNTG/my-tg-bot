@@ -7,8 +7,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 # --- НАСТРОЙКИ (ДАННЫЕ ОБНОВЛЕНЫ) ---
-API_TOKEN = '8547568325:AAFf4kf1kJhzWq4f8ZqSO5yCLbpsFyViBqU'
-CHANNEL_ID = 'baraholka_amd'
+
 
 # ID двух админов (твои данные)
 ADMIN_IDS = [6585904616, 5394084759] 
@@ -145,4 +144,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("Бот выключен.")
